@@ -7,4 +7,5 @@ export default interface Obra {
     cidade: string
     estado: string
     status: 'iniciada' | 'paralisada' | 'concluida'
+    valor: number
 }

@@ -9,7 +9,8 @@ const obras: Obra[] = [
       "bairro": "Centro",
       "cidade": "São Paulo",
       "estado": "SP",
-      "status": "iniciada"
+      "status": "iniciada",
+      "valor": 2500000
     },
     {
       "id": 2,
@@ -19,7 +20,8 @@ const obras: Obra[] = [
       "bairro": "Jardim das Américas",
       "cidade": "Curitiba",
       "estado": "PR",
-      "status": "paralisada"
+      "status": "paralisada",
+      "valor": 1200000
     },
     {
       "id": 3,
@@ -29,7 +31,8 @@ const obras: Obra[] = [
       "bairro": "Bela Vista",
       "cidade": "Rio de Janeiro",
       "estado": "RJ",
-      "status": "concluida"
+      "status": "concluida",
+      "valor": 3000000
     },
     {
       "id": 4,
@@ -39,7 +42,8 @@ const obras: Obra[] = [
       "bairro": "Santa Cecília",
       "cidade": "Belo Horizonte",
       "estado": "MG",
-      "status": "iniciada"
+      "status": "iniciada",
+      "valor": 10000000
     },
     {
       "id": 5,
@@ -49,7 +53,8 @@ const obras: Obra[] = [
       "bairro": "Vila Nova",
       "cidade": "Porto Alegre",
       "estado": "RS",
-      "status": "concluida"
+      "status": "concluida",
+      "valor": 550000
     },
     {
       "id": 6,
@@ -59,7 +64,8 @@ const obras: Obra[] = [
       "bairro": "Centro",
       "cidade": "Salvador",
       "estado": "BA",
-      "status": "paralisada"
+      "status": "paralisada",
+      "valor": 700000
     },
     {
       "id": 7,
@@ -69,7 +75,8 @@ const obras: Obra[] = [
       "bairro": "Jardim Primavera",
       "cidade": "Fortaleza",
       "estado": "CE",
-      "status": "iniciada"
+      "status": "iniciada",
+      "valor": 50000000
     },
     {
       "id": 8,
@@ -79,7 +86,8 @@ const obras: Obra[] = [
       "bairro": "Centro",
       "cidade": "Recife",
       "estado": "PE",
-      "status": "iniciada"
+      "status": "iniciada",
+      "valor": 7500000
     },
     {
       "id": 9,
@@ -89,7 +97,8 @@ const obras: Obra[] = [
       "bairro": "Cidade Universitária",
       "cidade": "Campinas",
       "estado": "SP",
-      "status": "concluida"
+      "status": "concluida",
+      "valor": 5000000
     },
     {
       "id": 10,
@@ -99,7 +108,8 @@ const obras: Obra[] = [
       "bairro": "Centro",
       "cidade": "Florianópolis",
       "estado": "SC",
-      "status": "paralisada"
+      "status": "paralisada",
+      "valor": 850000
     }
 ]
 

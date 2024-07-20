@@ -3,6 +3,7 @@ import { IconCircleFilled } from "@tabler/icons-react"
 export interface StatusObraProps {
     status: 'iniciada' | 'paralisada' | 'concluida'
     emptyStyle?: boolean
+    onClick?: (status: string) => void
 }
 
 export default function StatusObra(props: StatusObraProps) {
@@ -26,7 +27,11 @@ export default function StatusObra(props: StatusObraProps) {
     }
 
     return (
-        <div className={`flex items-center gap-2 ${props.emptyStyle ? '' : 'bg-zinc-950 rounded-md w-40 px-4 py-2'}`}>
+        <div 
+            className={`flex items-center gap-2
+                ${props.emptyStyle ? '' : 'bg-zinc-950 rounded-md w-40 px-4 py-2'}`
+            }
+            onClick={() => props.onClick?.(props.status)}>
             <IconCircleFilled color={colorStatus(props.status)}/>
             <span>{props.status}</span>
         </div>

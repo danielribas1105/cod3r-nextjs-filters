@@ -8,6 +8,7 @@ export interface ItemListaObraProps {
     cidade: string
     estado: string
     status: 'iniciada' | 'paralisada' | 'concluida'
+    valor: number
 }
 
 export default function ItemListaObra(props: ItemListaObraProps) {
@@ -19,7 +20,7 @@ export default function ItemListaObra(props: ItemListaObraProps) {
                 <p className="text-xs text-zinc-500">{props.bairro} - {props.cidade}/{props.estado}</p>
             </div>
             <StatusObra status={props.status}/>
-            <div className="ml-32">Outras Informações</div>
+            <div className="text-zinc-500 text-lg font-bold ml-32">R$ {props.valor.toFixed(2)}</div>
         </div>
     )
 }
